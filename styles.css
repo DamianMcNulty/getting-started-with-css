@@ -7,43 +7,36 @@ body
 
 h1 { margin: 0 0 .5em; }
 
-h2
+.test
 {
-	margin: 0;
+	width: 10em;
+	height: 10em;
 	border: 1px solid red;
+	position: absolute;
+}
+
+.test01
+{
+	left: 5em;
+	top: 5em;
 	background: yellow;
 }
 
-.container
+.test02
 {
-	width: 50em;
-	margin: 0 auto;
-	border: 1px solid blue;
+	left: 11em;
+	top: 11em;
+	background: lime;
 }
 
-/* add the property */
-h2 { position: fixed; }
-
-/* understanding values */
-h2 { left: 20px; }
-h2 { top: 20px; }
-
-/* stretched */
-h2
+.test03
 {
-	left: 0;
-	right: 0;
+	left: 14em;
+	top: 14em;
+	background: #ddd;
 }
 
-/* sized */
-h2 { width: 300px; }
-
-
-
-
-
-
-
+/* add rules here */
 
 
 
