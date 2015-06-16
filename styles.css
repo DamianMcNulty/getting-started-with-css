@@ -22,3 +22,9 @@ strong
 }
 
 /* add rules here */
+.example01 
+{
+	float: left; 
+	width: 300px;
+	border: 30px solid red;
+}
