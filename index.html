@@ -2,45 +2,110 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Lesson 04: Exercise 04 - font-family and inheritance - finished</title>
-	    <link href="styles.css" rel="stylesheet">
+		<title>Lesson 05: Exercise 01 - Understanding specificity - start</title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<h1>
-			Lesson 04: Exercise 04 - font-family and inheritance - finished
+			Lesson 05: Exercise 01 - Understanding specificity - start
 		</h1>
-		<p>
-			Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-		</p>
 		<h2>
-			Heading level 2
+			This is a heading level 2
 		</h2>
 		<p>
-			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut. 
 		</p>
-		<h3>
-			Heading level 3
-		</h3>
+		<h2 class="news" id="news">
+			This is a heading level 2
+		</h2>
 		<p>
-			Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut.
 		</p>
-		<h4>
-			Heading level 4
-		</h4>
-		<p>
-			Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-		</p>
-		<h5>
-			Heading level 5
-		</h5>
-		<p>
-			Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-		</p>
-		<h6>
-			Heading level 6
-		</h6>
-		<p>
-			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Rule</th>
+					<th>Inline</th>
+					<th>IDs</th>
+					<th>Classes</th>
+					<th>Types</th>
+					<th>Specificity</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><code>h2 { color: green; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0, 0, 0, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>.news { color: blue; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td>0, 0, <b>1</b>, 0</td>
+				</tr>
+				<tr>
+					<td><code>h2.news { color: orange; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>h2[id] { color: grey; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>h2[class] { color: olive; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>h2[class=news] { color: lime; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>#news { color: purple; }</code></td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td>0</td>
+					<td>0, <b>1</b>, 0, 0</td>
+				</tr>
+				<tr>
+					<td><code>h2#news { color: aqua; }</code></td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0, <b>1</b>, 0, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>&lt;h2 style="color: red;"&gt;</code></td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b>, 0, 0, 0</td>
+				</tr>
+			</tbody>
+		</table>
 	</body>
-</html>
+	</html>
