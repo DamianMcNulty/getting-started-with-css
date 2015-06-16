@@ -13,14 +13,15 @@ h1 { margin: 0 0 .5em; }
 	width: 200px;
 	height: 200px;
 	margin: 0 2em 2em 0;
-	border: 20px dotted red;
+	border: 1px dotted red;
 	background-image: url(a.jpg);
+	background-repeat: no-repeat;
 }
 
-.example03 { clear: both; }
-
 /* add rules here */
-.example01 { background-repeat: repeat; }
-.example02 { background-repeat: no-repeat; }
-.example03 { background-repeat: repeat-x; }
-.example04 { background-repeat: repeat-y; }
+
+
+
+
+
+
