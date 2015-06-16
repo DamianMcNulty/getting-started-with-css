@@ -6,31 +6,27 @@ body
 }
 
 h1 { margin: 0 0 .5em; }
-h2 { margin: 0; }
 
-.test
+h2
 {
-	display: inline-block;
-	background: yellow;
+	margin: 0;
+	border: 1px solid red;
+	background: rgba(255,255,0,.5);
 }
 
-.test06,
-.test07,
-.test08,
-.test09
+.container
 {
-	width: 140px;
-	height: 30px;
+	width: 50em;
+	margin: 0 auto;
+	border: 1px solid blue;
 }
 
-/* add rules here */
+/* add the property */
 
-.test01 { width: 200px; }
-.test02 { height: 60px; }
-.test03 { margin: 2em; }
-.test04 { padding: 2em; }
-.test05 { border: 1em solid red; }
-.test06 { overflow: visible; }
-.test07 { overflow: hidden; }
-.test08 { overflow: scroll; }
-.test09 { overflow: auto; }
+/* positioned against? */
+
+/* understanding values */
+
+/* stretched */
+
+/* sized */
