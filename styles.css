@@ -7,6 +7,12 @@ body
 
 h1 { margin: 0 0 .5em; }
 
+h2
+{
+	border: 1px solid red;
+	background: yellow;
+}
+
 .container
 {
 	overflow: hidden;
@@ -16,16 +22,3 @@ h1 { margin: 0 0 .5em; }
 }
 
 /* add rules here */
-.example01
-{
-	float: left; 
-	margin-right: 20px;
-}
-
-p { border: 5px solid red; }
-
-.example02 
-{
-	float: right; 
-	margin-left: 20px; 
-}
