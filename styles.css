@@ -7,12 +7,6 @@ body
 
 h1 { margin: 0 0 .5em; }
 
-strong
-{
-	border: 1px solid red; 
-	background: yellow;
-}
-
 .container
 {
 	overflow: hidden;
@@ -22,9 +16,3 @@ strong
 }
 
 /* add rules here */
-.example01 
-{
-	float: left; 
-	width: 300px;
-	border: 30px solid red;
-}
