@@ -5,3 +5,7 @@ body
 	font-size: 100%;
 }
 
+@media screen, print
+{
+	body { color: red; }
+}
