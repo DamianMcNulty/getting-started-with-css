@@ -4,7 +4,7 @@
 
 The second method we'll look at is the `@import` method. `@import` rules can be written in five different ways, but they're all trying to achieve the same result.
 
-![](images/10-2_import.png)
+![](Getting_Started_with_CSS_handouts/images/10-2_import.png)
 
 We're trying to import another CSS file into the original CSS file. In all these examples, we're importing *a.css* into the CSS file.
 
