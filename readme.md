@@ -1,4 +1,4 @@
-![](headings/BYFW Lesson 10.1.jpg)
+![](Getting_Started_with_CSS_handouts/headings/BYFW Lesson 10.1.jpg)
 
 # Introduction
 
