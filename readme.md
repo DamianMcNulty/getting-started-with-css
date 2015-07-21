@@ -4,15 +4,15 @@
 
 In CSS 2.1 many properties are inherited. Let's divide them intro groups.
 
-![](images/4-3_g1.png)
+![](Getting_Started_with_CSS_handouts/images/4-3_g1.png)
 
 The first group is text related properties.
 
-![](images/4-3_g2.png)
+![](Getting_Started_with_CSS_handouts/images/4-3_g2.png)
 
 The second group of properties that are inherited are list-style related properties.
 
-![](images/4-3_g3.png)
+![](Getting_Started_with_CSS_handouts/images/4-3_g3.png)
 
 And then of course, the most important is the `color` property.
 
