@@ -1,26 +1,34 @@
 ![](Getting_Started_with_CSS_handouts/headings/BYFW Lesson 1.1.jpg)
-##Welcome
-###Getting started with CSS - exercises
-Welcome to the *Getting Started with CSS* course. In this course you will be able to cover the following topics:
 
-* Lesson 01 - Applying style sheets to pages
-* Lesson 02 - Wrting CSS rules
-* Lesson 03 - Basic CSS selectors
-* Lesson 04 - CSS inheritance
-* Lesson 05 - CSS cascade
-* Lesson 06 - Block and inline elements
-* Lesson 07 - CSS positioning
-* Lesson 08 - CSS floats
-* Lesson 09 - CSS background
-* Lesson 10 - Print CSS
+## Introduction
+### Getting Started with CSS
 
-All handouts and code samples are available in [lesson 1.1](https://github.com/learnable-content/getting-started-with-css/tree/lesson1.1). All course lessons will also have resources needed per lesson available for download in [SitePoint's Premium](https://sitepoint.com/premium/). 
+Hello! My name is Russ Weakley from Max Design. Welcome to Getting Started with CSS course. The aim of this course is to learn CSS from the absolute basics. With each lesson, we're going to look at one aspect of CSS and then do a series of exercises.
 
-Happy Learning!
+- In lesson one, we're going to look at some key definitions, and then how to apply CSS to web pages.
+- In lesson two, we're going to look at how to write CSS rules.
+- In lesson three, we're going to look at basic CSS selectors.
+- In lesson four we will discuss CSS inheritance.
+- Lesson five is about CSS cascade.
+- Lesson six is devoted to block and inline elements.
+- Lesson seven is all about CSS positioning.
+- In lesson eight we will discuss CSS floats.
+- Lesson nine is about CSS backgrounds.
+- Lesson ten is the last lesson and is devoted to basic print CSS.
+
+## What You Need For Course
+
+To complete this course you only need two things:
+
+- A text editor.
+- A web browser. We're going to define modern browsers as anything above and equal to Internet Explorer 9, Chrome 12, Firefox 5, and Safari 5.1.
+
+You can download all the exercises for the entire course via the Download zip button below this video, which is part of lesson 1.1. Then you can code along as we go.
+
+Alternatively you can download just the exercises for any particular step of our lesson using the Download ZIP button below that relevant video.
 
 ## Handout Index
 
-* [Lesson 1-1](Getting_Started_with_CSS_handouts/lesson1-1.md)
 * [Lesson 1-2](Getting_Started_with_CSS_handouts/lesson1-2.md)
 * [Lesson 1-3](Getting_Started_with_CSS_handouts/lesson1-3.md)
 * [Lesson 1-4](Getting_Started_with_CSS_handouts/lesson1-4.md)
